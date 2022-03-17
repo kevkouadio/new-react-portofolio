@@ -1,6 +1,6 @@
 import { Button } from 'react-bootstrap';
 import Typist from 'react-typist';
-import './pages.css'
+import './home.css'
 
 function Home() {
 

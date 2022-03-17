@@ -23,7 +23,7 @@ function Nav() {
                         <a class="nav-link" aria-current="page" href="#"><i class="bi bi-house-door"></i><span className="nav-text"> Home</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="bi bi-window-stack"></i><span className="nav-text"> Portofolio </span></a>
+                        <a class="nav-link" href="#portofolio-container"><i class="bi bi-window-stack"></i><span className="nav-text"> Portofolio </span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="bi bi-person-lines-fill"></i><span className="nav-text"> Contact Me</span></a>

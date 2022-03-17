@@ -2,8 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import Nav from './components/Nav';
 import { Container, Row, Col, Card, Form, Button } from "react-bootstrap";
-import Home from './pages/Home';
-import Contact from './pages/Contact';
+import Home from './pages/Home/Home';
+import Contact from './pages/Contact/Contact';
+import Portofolio from './pages/Portofolio/Portofolio';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <div class="section blue" >
           <Home />
           <Contact />
-          
+          <Portofolio />
         </div>
       </div>
 
