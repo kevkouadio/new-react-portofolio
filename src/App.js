@@ -10,14 +10,14 @@ function App() {
   return (
     <div className="App" >
 
-      <div class="parent">
+      <div className="parent">
         <div id="nav-div">
           <Nav />
         </div>
-        <div class="section blue" >
+        <div className="section blue" >
           <Home />
-          <Contact />
           <Portofolio />
+          <Contact />
         </div>
       </div>
 

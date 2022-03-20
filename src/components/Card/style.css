@@ -3,7 +3,8 @@
     /* float: left; */
     margin-top: 30px;
     /* display: block; */
-    border-width: 0 4px 8px 12px #60616e;
+    border-width: 0 4px 8px 12px #afb0bd;
+    background-color: #afb0bd;
 }
 
 h5 {

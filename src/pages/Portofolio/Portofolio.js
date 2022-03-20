@@ -5,7 +5,7 @@ import './portofolio.css'
 function Portofolio() {
     return (
 
-        <div id="portofolio-container">
+        <div id="portofolio">
             <Container>
                 <Row>
                     <CardList />

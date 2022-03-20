@@ -12,8 +12,8 @@ function Home() {
                 <Typist>
                     <h1>Hi! My name is Kouassi Kevin Kouadio,</h1>
                     <h1>I'am a Full Stack Web Developper </h1>
-                    <h2>You can contact me by clicking on the Button below...</h2>
-                    <span><button className='btn btn-primary'>Contact Me</button></span>
+                    <h2>Feel free to contact me by clicking on the Button below...</h2>
+                    <span><a className='btn btn-primary' href="#contact">Contact Me</a></span>
                 </Typist>
             </div>
         </div>

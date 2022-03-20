@@ -17,19 +17,19 @@ function Nav() {
 
     return (
             <nav className={isExpanded ? "Sidebar" : "Sidebar collapsed"}>
-                <ul class="nav flex-column align-items-start">
-                    <button className="btn btn-primary" onClick={handleToggler}><i class="bi bi-list"></i></button>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#"><i class="bi bi-house-door"></i><span className="nav-text"> Home</span></a>
+                <ul className="nav flex-column align-items-start">
+                    <button className="btn btn-primary" onClick={handleToggler}><i className="bi bi-list"></i></button>
+                    <li className="nav-item">
+                        <a className="nav-link" aria-current="page" href="#"><i className="bi bi-house-door"></i><span className="nav-text"> Home</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portofolio-container"><i class="bi bi-window-stack"></i><span className="nav-text"> Portofolio </span></a>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#portofolio"><i className="bi bi-window-stack"></i><span className="nav-text"> Portofolio </span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="bi bi-person-lines-fill"></i><span className="nav-text"> Contact Me</span></a>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#contact"><i className="bi bi-person-lines-fill"></i><span className="nav-text"> Contact Me</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link"><i class="bi bi-file-earmark-person"></i><span className="nav-text"> My Resume</span></a>
+                    <li className="nav-item">
+                        <a className="nav-link"><i className="bi bi-file-earmark-person"></i><span className="nav-text"> My Resume</span></a>
                     </li>
                 </ul>
             </nav>
