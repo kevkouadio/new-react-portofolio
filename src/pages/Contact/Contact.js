@@ -70,10 +70,10 @@ function Contact() {
                                 </form>
                             </div>
                         </div>
-                        <div class={isHidden ? "card visually-hidden": "card"} id="msgSentCard">
-                            <div class="card-body hidden">
-                                <h2 class="card-title text-success">Message Sent!</h2>
-                                <p class="card-text text-dark">Thanks for contacting me! I will be in touch with you shortly.</p>
+                        <div className={isHidden ? "card visually-hidden": "card"} id="msgSentCard">
+                            <div className="card-body hidden">
+                                <h2 className="card-title text-success">Message Sent!</h2>
+                                <p className="card-text text-dark">Thanks for contacting me! I will be in touch with you shortly.</p>
                                 {/* <button class="btn btn-primary" onSubmit={sendNewMsg}>send a new message</button> */}
                             </div>
                         </div>
