@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Button } from "react-bootstrap";
+import MyResume from '../Resume/Resume.pdf'
 import "./Nav.css"
 
 function Nav() {
@@ -28,7 +29,7 @@ function Nav() {
                         <a className="nav-link" href="#contact"><i className="bi bi-person-lines-fill"></i><span className="nav-text" onClick={handleToggler}> Contact Me</span></a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link"><i className="bi bi-file-earmark-person"></i><span className="nav-text" onClick={handleToggler}> My Resume</span></a>
+                        <a className="nav-link" href={MyResume} target="_blank"><i className="bi bi-file-earmark-person"></i><span className="nav-text" onClick={handleToggler}> My Resume</span></a>
                     </li>
                 </ul>
             </nav>
