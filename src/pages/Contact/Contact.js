@@ -5,35 +5,29 @@ import "./contact.css"
 
 function Contact() {
 
-    // const [isHidden, setIsHidden] = useState(true);
     const [formObject, setFormObject] = useState({})
 
-    // const msgSent = () => {
-    //     //setIsHidden(false);
-    // };
-    
-    // const sendNewMsg = () => {
-    //     setIsHidden(true)
-    // }
-
-    function loading(){
+    function loading() {
+        document.getElementById("exampleFormControlInput1").style.opacity = "0.3";
+        document.getElementById("exampleFormControlInput2").style.opacity = "0.3";
+        document.getElementById("exampleFormControlTextarea1").style.opacity = "0.3";
         document.getElementById("loader").style.display = "block";
     }
-        var myVar
+    var myVar
     function showMsg() {
         myVar = setTimeout(showPage, 1200);
-      }
-      
-      function showPage() {
+    }
+
+    function showPage() {
         document.getElementById("form-card").style.display = "none";
         document.getElementById("loader").style.display = "none";
         document.getElementById("msgSentCard").style.display = "block";
-      }
+    }
 
     function handleInputChange(event) {
         const { name, value } = event.target;
-        setFormObject({...formObject, [name]: value})
-      };
+        setFormObject({ ...formObject, [name]: value })
+    };
 
     const form = useRef();
 
@@ -71,12 +65,16 @@ function Contact() {
                                         <label for="exampleFormControlInput1">Name</label>
                                         <input type="text" onChange={handleInputChange} name="user_name" className="form-control rounded-pill" id="exampleFormControlInput1" placeholder="Your Name" />
                                     </div>
-                                    <div id="loader"></div>
+                                    <div id="loader">
+                                        <div class="dot" id="dot1"></div>
+                                        <div class="dot" id="dot2"></div>
+                                        <div class="dot" id="dot3"></div>
+                                    </div>
                                     <div className="form-group">
                                         <label for="exampleFormControlInput1">Email address</label>
-                                        <input type="email" name="user_email" onChange={handleInputChange} className="form-control rounded-pill" id="exampleFormControlInput1" placeholder="name@example.com" />
+                                        <input type="email" name="user_email" onChange={handleInputChange} className="form-control rounded-pill" id="exampleFormControlInput2" placeholder="name@example.com" />
                                     </div>
-                                    
+
                                     <div className="form-group">
                                         <label for="exampleFormControlTextarea1">Message</label>
                                         <textarea name="message" onChange={handleInputChange} className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
@@ -86,7 +84,7 @@ function Contact() {
                                 </form>
                             </div>
                         </div>
-                        
+
                         <div className="card animate-bottom" id="msgSentCard" >
                             <div className="card-body hidden">
                                 <h2 className="card-title text-success">Message Sent!</h2>
