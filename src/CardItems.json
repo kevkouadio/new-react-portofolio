@@ -64,8 +64,8 @@
     },
     {
         "id": 9,
-        "name": "Code Quiz",
-        "description": "Javascript fundamental code quiz with multiple-choice questions.",
+        "name": "Restaurant Website Template",
+        "description": "Template of a restaurant website built from scratch using react.",
         "picture": "https://github.com/kevkouadio/KK-Code-Quiz/raw/master/Assets/Screen-Shot1.png",
         "link": "https://kevkouadio.github.io/KK-Code-Quiz/index.html",
         "repo": "https://github.com/kevkouadio/KK-Code-Quiz"
@@ -85,6 +85,15 @@
         "picture": "https://github.com/kevkouadio/kk-online-offline-budget-trackers/raw/main/public/icons/Screenshot.png",
         "link": "https://kk-budget-tracker.herokuapp.com/",
         "repo": "https://github.com/kevkouadio/kk-online-offline-budget-trackers"
+    },
+    {
+        "id": 12,
+        "name": "Rock-Paper-Scissors game",
+        "description": "Rock-Paper-Scissors game coded with HTLM, CSS and JS.",
+        "picture": "https://github.com/kevkouadio/RPS-Game/raw/main/assets/screeshot.gif",
+        "link": "https://kk-rps-game.netlify.app/",
+        "repo": "https://github.com/kevkouadio/RPS-Game"
     }
+
 
 ]
