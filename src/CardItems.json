@@ -16,11 +16,11 @@
     },
     {
         "id": 3,
-        "name": "CMS of a restaurant website",
-        "description": "A Content Management Systems app for a Restaurant where owner can post new dishes.",
-        "picture": "https://github.com/kevkouadio/Project2/raw/master/public/images/screenshots/menu.png",
-        "link": "https://restaurant-cms-project2.herokuapp.com/",
-        "repo": "https://github.com/kevkouadio/Project2"
+        "name": "Restaurant Website Template",
+        "description": "Template of a restaurant website built from scratch using react.",
+        "picture": "https://github.com/kevkouadio/good_cook_restaurant_template/raw/main/public/screenshot.gif",
+        "link": "https://goodcook.netlify.app/",
+        "repo": "https://github.com/kevkouadio/good_cook_restaurant_template"
     },
     {
         "id": 4,
@@ -64,11 +64,11 @@
     },
     {
         "id": 9,
-        "name": "Restaurant Website Template",
-        "description": "Template of a restaurant website built from scratch using react.",
-        "picture": "https://github.com/kevkouadio/KK-Code-Quiz/raw/master/Assets/Screen-Shot1.png",
-        "link": "https://kevkouadio.github.io/KK-Code-Quiz/index.html",
-        "repo": "https://github.com/kevkouadio/KK-Code-Quiz"
+        "name": "CMS of a restaurant website",
+        "description": "A Content Management Systems app for a Restaurant where owner can post new dishes.",
+        "picture": "https://github.com/kevkouadio/Project2/raw/master/public/images/screenshots/menu.png",
+        "link": "https://restaurant-cms-project2.herokuapp.com/",
+        "repo": "https://github.com/kevkouadio/Project2"
     },
     {
         "id": 10,
